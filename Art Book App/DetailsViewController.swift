@@ -10,6 +10,7 @@ import CoreData
 
 class DetailsViewController: UIViewController {
 
+    @IBOutlet weak var saveButton: UIButton!
     @IBOutlet weak var yearTextfield: UITextField!
     @IBOutlet weak var artistTextfield: UITextField!
     @IBOutlet weak var nameTextfield: UITextField!
@@ -27,6 +28,8 @@ class DetailsViewController: UIViewController {
         configureImageGesture()
         
         if chosenPainting != "" {
+            
+            saveButton.isHidden = true
             //Core data fetch
             
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -74,6 +77,9 @@ class DetailsViewController: UIViewController {
             
         }
         else{
+            saveButton.isHidden = false
+            saveButton.isEnabled = false
+            
             nameTextfield.text = ""
             artistTextfield.text = ""
             yearTextfield.text = ""
@@ -150,6 +156,7 @@ extension DetailsViewController: UIImagePickerControllerDelegate, UINavigationCo
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         imageView.image = info[.editedImage] as? UIImage
+        saveButton.isEnabled = true
         self.dismiss(animated: true, completion: nil)
     }
     
