@@ -14,6 +14,7 @@
 		DED9B3C5286AF43500ED8701 /* Art_Book_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DED9B3C3286AF43500ED8701 /* Art_Book_App.xcdatamodeld */; };
 		DED9B3C7286AF43800ED8701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED9B3C6286AF43800ED8701 /* Assets.xcassets */; };
 		DED9B3CA286AF43800ED8701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED9B3C8286AF43800ED8701 /* LaunchScreen.storyboard */; };
+		DED9B3D2286AF57800ED8701 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9B3D1286AF57800ED8701 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DED9B3C6286AF43800ED8701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED9B3C9286AF43800ED8701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DED9B3CB286AF43800ED8701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED9B3D1286AF57800ED8701 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DED9B3BA286AF43500ED8701 /* AppDelegate.swift */,
 				DED9B3BC286AF43500ED8701 /* SceneDelegate.swift */,
 				DED9B3BE286AF43500ED8701 /* ViewController.swift */,
+				DED9B3D1286AF57800ED8701 /* DetailsViewController.swift */,
 				DED9B3C0286AF43500ED8701 /* Main.storyboard */,
 				DED9B3C6286AF43800ED8701 /* Assets.xcassets */,
 				DED9B3C8286AF43800ED8701 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				DED9B3BB286AF43500ED8701 /* AppDelegate.swift in Sources */,
 				DED9B3C5286AF43500ED8701 /* Art_Book_App.xcdatamodeld in Sources */,
 				DED9B3BD286AF43500ED8701 /* SceneDelegate.swift in Sources */,
+				DED9B3D2286AF57800ED8701 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
